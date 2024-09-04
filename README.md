@@ -1,8 +1,8 @@
 #Spotify Web Clone Project Overview
-Introduction
+#Introduction
 Welcome to the Spotify Web Clone, an innovative project that emulates the user interface and experience of the popular music streaming platform, Spotify. This project is a comprehensive demonstration of web development skills, utilizing HTML, CSS, and Bootstrap to create a visually appealing and functional web application. Whether you're a developer seeking inspiration or a music enthusiast interested in the tech behind your favorite streaming service, this project offers a detailed look into how modern web technologies can be leveraged to build dynamic, interactive user interfaces.
 
-Project Objectives
+#Project Objectives
 The primary objective of this project was to recreate the core elements of Spotify's web interface, providing a seamless experience similar to the original application. Key features include:
 
 A Responsive Design: Ensures that the clone adapts beautifully to various screen sizes, from desktop monitors to mobile devices.
