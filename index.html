@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player:Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="/SpotifyClone/img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+    <div class="sidebar">
+        <div class="nav">
+            <div class="nav-option" style= "opacity:1";>
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+              <i class="fa-solid fa-circle-info"></i>
+                <a href="#">Explore</a>
+            </div>
+        </div>
+        <div class="library">
+             <div class="options">
+                <div class="lib-option nav-option">
+                    <img src="img/library_icon.png" alt="">
+                    <a href="#">Your Library</a>
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+             </div>
+             <div class="lib-box">
+                <div class="box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy , We'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+
+                <div class="box-2">
+                    <p class="box-p1">Let's find some podecasts to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+             </div>
+        </div>
+    </div> 
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg color" data-bs-theme="dark" style="overflow: visible;">
+           <div class="container-fluid">
+            <a href="#"  class="navbar-brand">All</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Music</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Podcasts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Best episodes of the week</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Artist
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="#">Best Artist of 2024</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Glenn Danzig</a></li>
+                      <li><a class="dropdown-item" href="#">Billie Eilish</a></li>
+                      <li><a class="dropdown-item" href="#">Arijit Singh</a></li>
+                      <li><a class="dropdown-item" href="#">A. R. Rahman</a></li>
+                      <li><a class="dropdown-item" href="#">Shreya Ghoshal</a></li>
+                      <li><a class="dropdown-item" href="#">Lata Mangeshkar</a></li>
+                      <li><a class="dropdown-item" href="#">Kavita Krishnamurthy</a></li>
+                      <li><a class="dropdown-item" href="#">Udit Narayan </a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+           </div>
+          </nav>
+           <div class="heading"> <h2>Popular albums</h2></div>
+      <div class="card-bars"> 
+        <div class="cards" id="heading">
+            <div class="card-bar"><img src="img/card1img (1).jpeg" alt=""></div>
+            <h3>Top 50-Global</h3>
+            <p>Your daily update of the</p>
+            <p>most played tracks right..</p>
+          </div>
+
+          <div class="cards" id="heading">
+            <div class="card-bar"><img src="img/card6img.jpeg" alt=""></div>
+            <h3>Top Songs India</h3>
+            <p>Your weekly mixtape of</p>
+            <p>fress music. Enjoy new.</p>
+          </div>
+
+          <div class="cards" id="heading">
+            <div class="card-bar"><img src="img/card5img.jpeg" alt=""></div>
+            <h3>Top songs Globle</h3>
+            <p>It's world famous and</p>
+            <p>most played songs</p>
+          </div>
+
+       </div>
+          
+          <div class="heading"><h1>Recommended for today</h1></div>
+          <div class="card-bars">           
+            <div class="cards">
+              <div class="card-bar"><img src="img/stree3.jpeg" alt=""></div>
+              <h3>Aayi Nai (from "Stree")</h3>
+              <p>Sachine-Jigar,Pawan Singh</p>
+            </div>
+            
+            <div class="cards">
+              <div class="card-bar"><img src="img/stree6.jpeg" alt=""></div>
+              <h3>Tainu Khabar Nahi</h3>
+              <p>Arjit Singh..</p>
+              <p></p>
+            </div>
+
+            <div class="cards">
+              <div class="card-bar"><img src="img/asque.jpeg" alt=""></div>
+              <h3>Chahun Main Ya Naa</h3>
+              <p>Palk Muchhal,Arjit Singh</p>
+            </div>
+          </div>
+
+            <div class="heading"><h1>Your top mixes</h1></div>
+            <div class="card-bars"> 
+            <div class="cards">
+              <div class="card-bar"><img src="img/siddar.jpeg" alt=""></div>
+               <h3>Barbaadiyan</h3>
+               <p>Sachet Tandon,Nikhia...</p>
+            </div>
+
+            <div class="cards">
+              <div class="card-bar"><img src="img/kiara.jpeg" alt=""></div>
+              <h3>Naseeb Se</h3>
+              <p>Payal Dev,Vishal Mishra</p>
+            </div>
+
+            <div class="cards">
+              <div class="card-bar"><img src="img/stree5.jpeg" alt=""></div>
+              <h3>Aaj Ki Raat</h3>
+              <p>Sachine-Jiger,Madhubanti</p>
+            </div>
+
+         </div>
+
+         <div class="heading"><h1>India's Best Artist</h1></div>
+          <div class="card-bars">           
+            <div class="cards">
+              <div class="card-bar"><img src="img/kk.jpeg" alt=""></div>
+              <h3>Kk</h3>
+              <p>Artist</p>
+            </div>
+            
+            <div class="cards">
+              <div class="card-bar"><img src="img/arjit.jpeg" alt=""></div>
+              <h3>Arijit Singh</h3>
+              <p>Artist</p>
+            </div>
+
+            <div class="cards">
+              <div class="card-bar"><img src="img/neha.jpeg" alt=""></div>
+              <h3>Neha Kakkad</h3>
+              <p>Artist</p>
+            </div>
+
+            <div class="cards">
+              <div class="card-bar"><img src="img/shrya.jpeg" alt=""></div>
+              <h3>Shreya Ghoshal</h3>
+              <p>Artist</p>
+            </div>
+
+            <div class="cards">
+              <div class="card-bar"><img src="img/utit.jpeg" alt=""></div>
+              <h3>Udit Narayan</h3>
+              <p>Artist</p>
+            </div>
+
+            <div class="cards">
+              <div class="card-bar"><img src="img/lata.jpeg" alt=""></div>
+              <h3>Lata Mangesker</h3>
+              <p>Artist</p>
+            </div>
+
+            <div class="heading"><h1>Best episodes of the week</h1></div>
+            <div class="card-bars"> 
+
+              <div class="cards">
+                <div class="card-bar"><img src="img/unplase.avif" alt=""></div>
+                <h3>Ep.58:Gour</h3>
+                <p>Jul 2023 * 129 min</p>
+              </div>
+              
+              <div class="cards">
+                <div class="card-bar"><img src="img/unplase2.jpg" alt=""></div>
+                <h3>Ep.34:Deen</h3>
+                <p>Reasons for india's most</p>
+                <p>loved contry</p>
+              </div>
+  
+              <div class="cards">
+                <div class="card-bar"><img src="img/unplase3.jpg" alt=""></div>
+                <h3>Ep.102:Calish</h3>
+                <p>Social harsment:harmful</p>
+              </div>
+          </div>  
+
+         </div>
+
+        <div class="last">
+         
+          <div class="company">
+            <h3>Company</h3>
+            <a href="#">About</a>
+            <a href="#">jobs</a>
+            <a href="#">for the Record</a>
+          </div>
+
+          <div class="communities">
+            <h3>Communities</h3>
+            <a href="#">For Artists</a>
+            <a href="#">Developers</a>
+            <a href="#">Advertising</a>
+            <a href="#">Investors</a>
+            <a href="#">Vendors</a>
+          </div>
+
+          <div class="link">
+            <h3>Useful links</h3>
+            <a href="#">Support</a>
+            <a href="#">Free Mobils Aap</a>   
+          </div>
+
+          <div class="plan">
+            <h3>Spotify Plans</h3>
+            <a href="#">Premium Individual</a>
+            <a href="#">Premium Duo</a>   
+            <a href="#">Premium Family</a>
+          </div>
+        </div>
+        
+        <div class="icons">
+             
+          <div class="bar">
+            <img src="img/instagram (2) 2.png" alt="">
+            <img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-1-2.png" alt="">
+            <img src="img/linkedin (1) 2.png" alt="">
+          </div>
+
+        </div>
+
+        <div class="best"></div>
+        
+    </div>
+    
+    
+    <div class="music-player">
+
+      <div class="music-bar">
+        <img src="img/siddar.jpeg" alt="">
+        <div>
+        <h3>Barbaadiyan</h3>
+        <div><p>Sachet Tandon,Nikhia</p>
+       </div>
+      </div>
+      <div><i class="fa-solid fa-circle-plus"></i></div>
+      <div class="music-system">
+        <div class="album"></div>
+       <div class="player-controls">
+        <img src="img/player_icon1.png" alt="#" class="player-control-icon">
+        <img src="img/player_icon2.png" alt="#" class="player-control-icon">
+        <img src="img/player_icon3.png" id="play" class="player-control-icon" style="opacity: 1;">
+        <img src="img/player_icon4.png" alt="#" class="player-control-icon">
+        <img src="img/player_icon5.png" alt="#" class="player-control-icon">
+       </div>
+       <div class="plaback-bar">
+        <span class="curr-time">00:00</span>
+        <input type="range" min="0" max="100" class="progress-bar" style="margin-left: 9px; margin-right: 9px;" step="1">
+        <span class="tot-time">00:00</span>
+       </div>
+      </div>
+      <div class="music-bar3"> 
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-solid fa-microphone"></i>
+          <i class="fa-solid fa-book"></i>
+          <i class="fa-solid fa-file-audio"></i>
+          <i class="fa-solid fa-volume-low"></i>
+          <div>
+            <input type="range" class="progress-bar2">
+          </div>
+          <i class="fa-solid fa-arrows-rotate"></i>
+      </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
